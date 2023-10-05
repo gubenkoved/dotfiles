@@ -43,3 +43,8 @@ endif
 
 " add mouse support
 set mouse=a
+
+" keys
+" Tab to cycle splits
+nmap <Tab> <C-w>w
+
