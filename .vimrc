@@ -16,6 +16,9 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+
+" adds AgRaw and RgRaw commands 
+Plug 'jesseleite/vim-agriculture'
 call plug#end()
 
 set termguicolors     " enable true colors support
