@@ -19,6 +19,10 @@ Plug 'airblade/vim-gitgutter'
 
 " adds AgRaw and RgRaw commands 
 Plug 'jesseleite/vim-agriculture'
+
+" recent files list at :MRU
+Plug 'yegappan/mru'
+
 call plug#end()
 
 set termguicolors     " enable true colors support
