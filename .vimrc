@@ -23,6 +23,10 @@ Plug 'jesseleite/vim-agriculture'
 " recent files list at :MRU
 Plug 'yegappan/mru'
 
+
+" color highlighter by 'f<ENTER>', 'f<BS>', etc
+Plug 'azabiong/vim-highlighter'
+
 call plug#end()
 
 set termguicolors     " enable true colors support
