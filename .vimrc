@@ -52,6 +52,9 @@ endif
 " add mouse support
 set mouse=a
 
+" setup to conviniently show whitespaces (via ":set list" command)
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+
 " keys
 " Tab to cycle splits
 nmap <Tab> <C-w>w
