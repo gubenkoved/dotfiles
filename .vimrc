@@ -27,6 +27,11 @@ Plug 'yegappan/mru'
 " color highlighter by 'f<ENTER>', 'f<BS>', etc
 Plug 'azabiong/vim-highlighter'
 
+
+" wrapper over mksession that allows to save and restore
+" layouts and it adds nice start screen
+Plug 'mhinz/vim-startify'
+
 call plug#end()
 
 set termguicolors     " enable true colors support
